@@ -13,12 +13,24 @@ In the current version, there are a total of **2** shaders. Note that the path m
 | ---- | ---- | ----------- | ------------ |
 | Billow | `shaders/billow` | A world-space billowing displacement shader, using Perlin noise. | Rolling clouds, Blobby objects like slime
 | Pulsate | `shaders/pulsate` | A sinusoidal pulsating shader which inflates an object via normal displacement and flashes a given colour. | Hit / alert markers on NPCs or objects, things which are about to explode
+| Snow | `shaders/snow` | A procedural snow shader which works by comparing `dot(u, n)` where `u` = `vec3(0, 1, 0)` and `n` is the world-space normal. Performs displacement, albedo and emission calculations. | Snow, Slime
 
+# GIFs
 
-## GIFs
+## Pulsate
+A pulsating shader which flashes and displaces over time. Perfect for bombs which are about to explode, or hitmarkers for NPCs.
 
-### Pulsate
 ![Pulsate Shader Example](https://cdn.discordapp.com/attachments/689485748654833682/802567005541761074/2021-01-21_14-02-22.gif)
 
-### Billow
+
+
+## Billow
+A cloudy, billowing shader using world-space gradient noise. Very good for rolling clouds and small low-poly puffs of smoke (e.g. when something's hit, or explosions).
+
 ![Billow Shader Example](https://cdn.discordapp.com/attachments/689485748654833682/802964512272678963/2021-01-24_18-13-29.gif)
+
+
+## Snow
+A shader which adds snow procedurally using a bit of cool vector math. Good for adding snow or coating objects with a thick viscous layer of something (like slime or acid!).
+
+![Snow Shader Example](https://cdn.discordapp.com/attachments/689485748654833682/802972557719371776/2021-01-24_18-45-48.gif)
