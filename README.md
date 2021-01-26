@@ -4,10 +4,10 @@
 This is a collection of rather funky (and useful) shaders for visual effects in Unity. You can access the shaders in `Assets/shaders/shaders/` and the materials used in the scenes from `Assets/shaders/materials`. The shaders are created for URP & HDRP with ShaderGraph. However I am considering creating some CG variants for non-SRP builds.
 
 ## Why, though?
-I frequently create a bunch of shaders for VFX in Unity, and I'm sick of copying them from project-to-project. So this repository serves as a public index of reuseable shaders. It also serves the purpose of showing newcomers to shader development some interesting Examples
+I frequently create a bunch of shaders for VFX in Unity, and I'm sick of copying them from project-to-project. So this repository serves as a public index of reuseable shaders. It also serves the purpose of showing newcomers to shader development some interesting examples.
 
 ## What's in the repository?
-In the current version, there are a total of **2** shaders. Note that the path mentioned below is relative to `assets/shaders/`. For example, the full working path of the `billow` shader is `assets/shaders/shaders/billow`.
+In the current version, there are a total of **3** shaders. Note that the path mentioned below is relative to `assets/shaders/`. For example, the full working path of the `billow` shader is `assets/shaders/shaders/billow`.
 
 | Name | File | Description | Applications |
 | ---- | ---- | ----------- | ------------ |
