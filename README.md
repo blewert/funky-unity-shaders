@@ -14,6 +14,7 @@ In the current version, there are a total of **2** shaders. Note that the path m
 | Billow | `shaders/billow` | A world-space billowing displacement shader, using Perlin noise. | Rolling clouds, Blobby objects like slime
 | Pulsate | `shaders/pulsate` | A sinusoidal pulsating shader which inflates an object via normal displacement and flashes a given colour. | Hit / alert markers on NPCs or objects, things which are about to explode
 | Snow | `shaders/snow` | A procedural snow shader which works by comparing `dot(u, n)` where `u` = `vec3(0, 1, 0)` and `n` is the world-space normal. Performs displacement, albedo and emission calculations. | Snow, Slime
+| Distance-based | `shaders/distance-based` | A distance-based shader, which applies 1 or 2 subgraphs depending on a given distance to world-pos `vec3`. | Expanding "shockwave" effects, Distanced-based Dissolve 
 
 # GIFs
 
@@ -34,3 +35,8 @@ A cloudy, billowing shader using world-space gradient noise. Very good for rolli
 A shader which adds snow procedurally using a bit of cool vector math. Good for adding snow or coating objects with a thick viscous layer of something (like slime or acid!).
 
 ![Snow Shader Example](https://cdn.discordapp.com/attachments/689485748654833682/802972557719371776/2021-01-24_18-45-48.gif)
+
+## Distance-based
+A shader which applies 1 of 2 effects, given the distance to a specific world position (passed as a uniform). In this example, the first effect is render with a normal colour (the red portion) and the second effect is to not render at all (alpha = 0). Based on the distance, the given effect is chosen. To edit the two effects, see the two subgraphs in the folder for this shader.
+
+![Distance-based Shader Example](https://cdn.discordapp.com/attachments/689485748654833682/805475467451695154/2021-01-31_16-30-57.gif)

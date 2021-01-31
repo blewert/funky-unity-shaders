@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7162747118187069332
+--- !u!114 &-3160908693269626607
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Snow
-  m_Shader: {fileID: -6465566751694194690, guid: 34e8eb247623e424ebda856d9b2ab402, type: 3}
+  m_Name: Distance-based
+  m_Shader: {fileID: -6465566751694194690, guid: 68db8988a996708408a7970b4bbfb5a9, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -61,10 +61,8 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_20A51EBE: 0.2
-    - Vector1_363840A: 5.47
-    - Vector1_60BE0A2E: 0.14
-    - Vector1_B478532F: 0.6
+    - Vector1_588C60E6: 5.26
+    - Vector1_909A815B: 0.62
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -87,10 +85,10 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_B6A3577A: {r: 1, g: 1, b: 1, a: 1}
-    - Color_CD0939B0: {r: 1, g: 0.2948161, b: 0.015686274, a: 1}
+    - Vector3_9610DFEC: {r: -0.338, g: 1.476, b: -12.9, a: 0}
     - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _Color: {r: 0.5, g: 0.5, b: 0.5, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _WorldPos: {r: -0.338, g: 1.476, b: -12.49, a: 0}
   m_BuildTextureStacks: []
