@@ -40,4 +40,4 @@ A shader which adds snow procedurally using a bit of cool vector math. Good for 
 ## Distance-based
 A shader which applies 1 of 2 effects, given the distance to a specific world position (passed as a uniform). In this example, the first effect is render with a normal colour (the red portion) and the second effect is to not render at all (alpha = 0). Based on the distance, the given effect is chosen. To edit the two effects, see the two subgraphs in the folder for this shader.
 
-![Distance-based Shader Example](https://cdn.discordapp.com/attachments/689485748654833682/805475467451695154/2021-01-31_16-30-57.gif)
+![Distance-based Shader Example](https://cdn.discordapp.com/attachments/689485748654833682/805482214992904192/2021-01-31_16-58-19.gif)
